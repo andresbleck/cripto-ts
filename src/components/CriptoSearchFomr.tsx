@@ -6,7 +6,7 @@ import ErrorMesagge from "./ErrorMesagge"
 export default function CriptoSearchFomr() {
 
   const cryptocurrencies=useCryptoStore((state)=>state.cryptocurrencies)
-  const fetchData=useCryptoStore((state)=>state.fetchData)
+  const fetchData = useCryptoStore((state)=>state.fetchData)
 
   const [pair,setPair] = useState<Pair>({
         currency:'',
